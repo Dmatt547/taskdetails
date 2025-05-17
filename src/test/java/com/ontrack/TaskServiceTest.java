@@ -1,6 +1,8 @@
 package com.ontrack;
 
 import static org.junit.Assert.*;
+import com.ontrack.TaskService;
+
 import org.junit.Test;
 
 public class TaskServiceTest {
