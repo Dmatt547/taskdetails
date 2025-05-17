@@ -13,6 +13,7 @@ public class TaskServiceTest {
         Task task = service.getTaskDetails("9.1P");
 
         assertNotNull(task);
+        assertEquals("9.1P", task.id);
         assertEquals("TDD and CI", task.title);
         assertEquals("2025-05-21", task.dueDate);
         assertEquals("https://ontrack.deakin.edu.au/tasksheets/tdd-ci.pdf", task.taskSheetURL);
